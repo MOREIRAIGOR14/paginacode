@@ -1,3 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -5,56 +11,55 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .logo {
+}
+
+.logo {
     display: flex;
     align-items: center;
-  }
-  
-  .logo img {
+}
+
+.logo img {
     height: 50px;
     margin-right: 10px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     margin-right: 20px;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  /* Estilos para as seções */
-  main {
+}
+
+main {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  section {
-    flex: 1 1 300px;
+}
+
+section {
+    flex: 1 1 calc(33.33% - 20px);
     margin-right: 20px;
-  }
-  
-  section:last-child {
+    margin-bottom: 20px;
+}
+
+section:last-child {
     margin-right: 0;
-  }
-  
-  section h2 {
+}
+
+section h2 {
     margin-top: 0;
-  }
-  
-  /* Estilos para o rodapé */
-  footer {
+}
+
+footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -63,5 +68,4 @@ header {
     bottom: 0;
     left: 0;
     width: 100%;
-  }
-  
+}
